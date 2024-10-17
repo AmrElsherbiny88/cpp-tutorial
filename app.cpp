@@ -16,9 +16,9 @@ using namespace std ;
 
     // typedef - using ex 
 
-    typedef string text_t ; 
+    // typedef string text_t ; 
 
-    using number = int ; 
+    // using number = int ; 
 
 
 int main (){
@@ -178,13 +178,28 @@ int main (){
          // *******************************************
 
 // typedef start
-         text_t name = "amr"; 
-         number x = 10 ;
-         cout<<name << x  ; 
+        //  text_t name = "amr"; 
+        //  number x = 10 ;
+        //  cout<<name << x  ; 
 
 // typedef - using  end
 
 
          // *******************************************
+
+// type conversion start 
+
+int correct = 8 ; 
+int questions = 10 ; 
+
+double score = correct / (double)questions * 100 ; 
+
+cout <<score; 
+
+// type conversion end 
+
+
+         // *******************************************
+
     return 0 ;
 }
