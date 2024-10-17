@@ -49,5 +49,45 @@ int main (){
 // cout<<z;
 
 //  increment end  
+
+
+         // *******************************************
+
+
+// math operation test => z = 1.3   x = 10  y = 5
+
+// double x = 10;
+// double y = 5;
+// double z ; 
+
+// z = (x+10)/(3*y);
+
+// cout<<z;
+
+// math operation test => z = 1.3   x = 10  y = 5 end
+
+
+         // *******************************************
+
+
+
+// training write code display your state tax and county tax from your sales ==> sales  = 95000  s.tax = 4%  c.tax = 2% 
+
+double sales = 95000; 
+
+double Stax = sales * 4/100;
+
+double Ctax =  sales * 2/100;
+
+cout << "Sales = $" << sales << endl  << "State tax = $"<< Stax << endl << "Country Tax = $" << Ctax;
+
+// training write code display your state tax and county tax from your sales End 
+
+         // *******************************************
+
+
+
+         
+
     return 0 ;
 }
