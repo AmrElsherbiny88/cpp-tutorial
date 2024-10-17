@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std ; 
-
+#include <cmath>;
 
 // namespace 
 
@@ -189,17 +189,39 @@ int main (){
 
 // type conversion start 
 
-int correct = 8 ; 
-int questions = 10 ; 
+// int correct = 8 ; 
+// int questions = 10 ; 
 
-double score = correct / (double)questions * 100 ; 
+// double score = correct / (double)questions * 100 ; 
 
-cout <<score; 
+// cout <<score; 
 
 // type conversion end 
 
 
          // *******************************************
 
+
+// cmath start 
+
+// double x = 5.25 ;
+// double y = 4 ;
+// double  z ; 
+
+// z = max(x,y); = > get max value 
+// z = min(x,y); => get min value 
+// z =pow(2,4); => 2 power 8 
+// z= sqrt (9); => square root 9 
+// z= abs(-5); => absolute value 
+// z = round (x) ; => abroximate 
+// z = ceil(x);=> up the number 
+// z = floor (x); => down the number 
+
+// cout<< z ;
+
+// cmath end  
+
+
+         // *******************************************
     return 0 ;
 }
