@@ -3,6 +3,29 @@ using namespace std ;
 
 int main (){
 
+
+//data types  start
+
+//int => integers
+
+//double => decimal 
+
+// char => single character ''
+
+// boolean => true , false => bool
+
+//string => sentence
+
+// const => make the value doesnt change => constant like js 
+
+//data types  end 
+
+
+
+          // *******************************************
+
+
+
   //  cout<<"Hello";
 
     // operation on 2 var
@@ -114,6 +137,7 @@ CtaxValue = sales * Ctax ;
 StaxValue = sales * Stax  ; 
 
 cout<< "Your Sales = $" << sales <<endl << "State Tax = $" << StaxValue <<endl << "Country tax = $"<<CtaxValue << endl << "Total taxes = $" << CtaxValue+StaxValue;
+
 //  s.tax ,  c.tax calculator from sales dynamic app End 
 
          // *******************************************
