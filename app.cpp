@@ -10,12 +10,12 @@ int main (){
    int y ;
    int total ;
 
-   cout<<"Hello\n please write 2 numbers aftereach one click enter ";
+   cout<<"Hello\n please write 2 numbers aftereach one click enter \n";
 
    cin>> x ; 
    cin>> y ;
    total = x+y ;
-   cout<< total ;
+   cout<< "Total = " << total ;
     // end
 
 
