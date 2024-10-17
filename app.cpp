@@ -19,19 +19,35 @@ int main (){
     // end
 
 
+
+          // *******************************************
+
+
+
 // swap variables value start
 
-int a = 5 ; 
-int b = 15 ; 
-int box = a ; 
+// int a = 5 ; 
+// int b = 15 ; 
+// int box = a ; 
 
-a = b ; 
-b = box ; 
+// a = b ; 
+// b = box ; 
 
-cout << b ; 
+// cout << b ; 
 // swap variables value end 
 
 
+          // *******************************************
 
+//  increment start 
+
+// int x = 10 ; 
+// // int y = x++; //x=11 y= 10
+
+// int z = ++x; //x=11 z= 11
+ 
+// cout<<z;
+
+//  increment end  
     return 0 ;
 }
