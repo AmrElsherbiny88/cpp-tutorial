@@ -73,21 +73,50 @@ int main (){
 
 // training write code display your state tax and county tax from your sales ==> sales  = 95000  s.tax = 4%  c.tax = 2% 
 
-double sales = 95000; 
+// double sales = 95000; 
 
-double Stax = sales * 4/100;
+// double Stax = sales * 4/100;
 
-double Ctax =  sales * 2/100;
+// double Ctax =  sales * 2/100;
 
-cout << "Sales = $" << sales << endl  << "State tax = $"<< Stax << endl << "Country Tax = $" << Ctax;
+// cout << "Sales = $" << sales << endl  << "State tax = $"<< Stax << endl << "Country Tax = $" << Ctax;
 
 // training write code display your state tax and county tax from your sales End 
 
          // *******************************************
 
+//  s.tax ,  c.tax calculator from sales dynamic app 
 
+double sales ;
 
-         
+double Stax ; 
+ 
+double Ctax ;
+
+double StaxValue ; 
+
+double CtaxValue ; 
+
+cout<< "please put your sales value \n";
+
+cin>> sales ;
+
+cout<< " please put state tax ratio \n " ;
+
+cin>> Stax ;
+
+cout<< " please put Country tax ratio \n " ;
+
+cin>> Ctax ;
+
+CtaxValue = sales * Ctax ;
+
+StaxValue = sales * Stax  ; 
+
+cout<< "Your Sales = $" << sales <<endl << "State Tax = $" << StaxValue <<endl << "Country tax = $"<<CtaxValue << endl << "Total taxes = $" << CtaxValue+StaxValue;
+//  s.tax ,  c.tax calculator from sales dynamic app End 
+
+         // *******************************************
 
     return 0 ;
 }
