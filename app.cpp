@@ -223,5 +223,31 @@ int main (){
 
 
          // *******************************************
+
+  //  exercise app to calc hypo of right angle triangle with dynamic sides length 
+ 
+ double opposite ;
+ double adjacent ; 
+ double hypo ;
+
+ cout<<"please put the opposite side value \n";
+
+ cin>>opposite;
+
+ cout<<"please put the adjacent side value \n";
+ cin>>adjacent;
+
+ hypo = sqrt(pow(opposite,2) + pow(adjacent,2));
+
+ cout<<"Hypo value = "<< hypo ;
+
+
+  //  exercise app to calc hypo of right angle triangle with dynamic sides length end 
+
+
+           // *******************************************
+
+
+           
     return 0 ;
 }
