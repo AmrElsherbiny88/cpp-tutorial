@@ -4,13 +4,22 @@ using namespace std ;
 
 // namespace 
 
-namespace first {
-  int x=1;
-}
+// namespace first {
+//   int x=1;
+// }
 
-namespace second {
-  int x=2;
-}
+// namespace second {
+//   int x=2;
+// }
+
+          // *******************************************
+
+    // typedef - using ex 
+
+    typedef string text_t ; 
+
+    using number = int ; 
+
 
 int main (){
 
@@ -166,6 +175,16 @@ int main (){
 
 
     
+         // *******************************************
+
+// typedef start
+         text_t name = "amr"; 
+         number x = 10 ;
+         cout<<name << x  ; 
+
+// typedef - using  end
+
+
          // *******************************************
     return 0 ;
 }
