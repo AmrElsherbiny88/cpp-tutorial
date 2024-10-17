@@ -1,6 +1,17 @@
 #include <iostream>
 using namespace std ; 
 
+
+// namespace 
+
+namespace first {
+  int x=1;
+}
+
+namespace second {
+  int x=2;
+}
+
 int main (){
 
 
@@ -110,37 +121,51 @@ int main (){
 
 //  s.tax ,  c.tax calculator from sales dynamic app 
 
-double sales ;
+// double sales ;
 
-double Stax ; 
+// double Stax ; 
  
-double Ctax ;
+// double Ctax ;
 
-double StaxValue ; 
+// double StaxValue ; 
 
-double CtaxValue ; 
+// double CtaxValue ; 
 
-cout<< "please put your sales value \n";
+// cout<< "please put your sales value \n";
 
-cin>> sales ;
+// cin>> sales ;
 
-cout<< " please put state tax ratio \n " ;
+// cout<< " please put state tax ratio \n " ;
 
-cin>> Stax ;
+// cin>> Stax ;
 
-cout<< " please put Country tax ratio \n " ;
+// cout<< " please put Country tax ratio \n " ;
 
-cin>> Ctax ;
+// cin>> Ctax ;
 
-CtaxValue = sales * Ctax ;
+// CtaxValue = sales * Ctax ;
 
-StaxValue = sales * Stax  ; 
+// StaxValue = sales * Stax  ; 
 
-cout<< "Your Sales = $" << sales <<endl << "State Tax = $" << StaxValue <<endl << "Country tax = $"<<CtaxValue << endl << "Total taxes = $" << CtaxValue+StaxValue;
+// cout<< "Your Sales = $" << sales <<endl << "State Tax = $" << StaxValue <<endl << "Country tax = $"<<CtaxValue << endl << "Total taxes = $" << CtaxValue+StaxValue;
 
 //  s.tax ,  c.tax calculator from sales dynamic app End 
 
          // *******************************************
 
+
+    // namespace using ex. 
+
+    // int x = 0 ;
+
+    // cout<<x;
+
+    // cout<< first::x;
+    // cout<< second::x;
+    // namespace using ex. end 
+
+
+    
+         // *******************************************
     return 0 ;
 }
