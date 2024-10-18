@@ -298,47 +298,70 @@ int main (){
 
 // calculator with switches app 
 
-char op ; 
-double num1 ;
-double num2 ; 
-double result;
-cout<<"**************************CALCULATOR**************************\n";
+// char op ; 
+// double num1 ;
+// double num2 ; 
+// double result;
+// cout<<"**************************CALCULATOR**************************\n";
 
-cout<<"please choose the operation (+ , - , * , /) \n";
-cin>>op;
+// cout<<"please choose the operation (+ , - , * , /) \n";
+// cin>>op;
 
-cout<<"put the first number  \n";
-cin>> num1;
+// cout<<"put the first number  \n";
+// cin>> num1;
 
-cout<<"put the second number \n";
-cin>> num2;
+// cout<<"put the second number \n";
+// cin>> num2;
 
-switch (op)
+// switch (op)
+// {
+// case '+':
+//    result = num1+num2;
+//   break;
+
+// case '-':
+//    result = num1 - num2;
+//   break;
+
+// case '*':
+//    result = num1 * num2;
+//   break;
+
+// case '/':
+//    result = num1 / num2;
+//   break;
+
+// default:
+//   cout<<"put true operation";
+//   break;
+// }
+
+// cout<<"Result = "<<result <<endl;
+
+// cout<<"**************************************************************";
+
+// calculator with switches app end 
+
+
+
+           // *******************************************
+
+
+// while loops = > force user to do something  
+
+string name ;
+
+while (name.empty())
 {
-case '+':
-   result = num1+num2;
-  break;
-
-case '-':
-   result = num1 - num2;
-  break;
-
-case '*':
-   result = num1 * num2;
-  break;
-
-case '/':
-   result = num1 / num2;
-  break;
-
-default:
-  cout<<"put true operation";
-  break;
+  cout<<"enter your name : ";
+  cin>>name ;
 }
 
-cout<<"Result = "<<result <<endl;
+cout<< "hello "<<name ;
+// while loops   end
 
-cout<<"**************************************************************";
+
+           // *******************************************
 
     return 0 ;
 }
