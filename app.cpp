@@ -273,22 +273,22 @@ int main (){
 
 //  switch 
 
-int month ;
+// int month ;
 
-cout<<"please put the month number \n";
-cin >> month ; 
+// cout<<"please put the month number \n";
+// cin >> month ; 
 
-switch (month)
-{
-case 1:
-  cout<<"january";
-  break;
-case 2 :
-  cout << " february";
-default:
- cout<<"put true shit";
-  break;
-}
+// switch (month)
+// {
+// case 1:
+//   cout<<"january";
+//   break;
+// case 2 :
+//   cout << " february";
+// default:
+//  cout<<"put true shit";
+//   break;
+// }
 //  switch end 
 
 
@@ -296,11 +296,49 @@ default:
            // *******************************************
 
 
+// calculator with switches app 
 
+char op ; 
+double num1 ;
+double num2 ; 
+double result;
+cout<<"**************************CALCULATOR**************************\n";
 
+cout<<"please choose the operation (+ , - , * , /) \n";
+cin>>op;
 
+cout<<"put the first number  \n";
+cin>> num1;
 
+cout<<"put the second number \n";
+cin>> num2;
 
+switch (op)
+{
+case '+':
+   result = num1+num2;
+  break;
+
+case '-':
+   result = num1 - num2;
+  break;
+
+case '*':
+   result = num1 * num2;
+  break;
+
+case '/':
+   result = num1 / num2;
+  break;
+
+default:
+  cout<<"put true operation";
+  break;
+}
+
+cout<<"Result = "<<result <<endl;
+
+cout<<"**************************************************************";
 
     return 0 ;
 }
