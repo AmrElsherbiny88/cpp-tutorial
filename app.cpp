@@ -250,19 +250,19 @@ int main (){
 
 // if condition start 
 
-int age ; 
+// int age ; 
 
-cout<<"please enter your age \n";
+// cout<<"please enter your age \n";
 
-cin >>age ;
+// cin >>age ;
 
-if (age>=18)
-{
-  cout<<"welcome to mens secret club";
+// if (age>=18)
+// {
+//   cout<<"welcome to mens secret club";
 
-} else{
-  cout<<"go out small shit";
-}
+// } else{
+//   cout<<"go out small shit";
+// }
 
 // if condition end 
 
@@ -271,11 +271,29 @@ if (age>=18)
            // *******************************************
 
 
+//  switch 
+
+int month ;
+
+cout<<"please put the month number \n";
+cin >> month ; 
+
+switch (month)
+{
+case 1:
+  cout<<"january";
+  break;
+case 2 :
+  cout << " february";
+default:
+ cout<<"put true shit";
+  break;
+}
+//  switch end 
 
 
 
-
-
+           // *******************************************
 
 
 
